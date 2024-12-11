@@ -1,10 +1,11 @@
 id: aws/sagemaker-timeseries-forecasting
-category: tutorial
+type: tutorial
+categories: ["Getting started", "Featured Projects"]
 icon: assets/aws.png
-images:
-  - banner: assets/cat.png
-  - thumbnail: assets/aws.png
-gitrepo: https://github.com/particle-iot/blueprint-aws-sagemaker-tutorial
+banner_image: assets/cat.png
+thumbnail_image: assets/aws.png
+gitrepo: https://github.com/hugomontero/blueprint-aws-sagemaker-tutorial
+supported_platforms: ["Boron", "Argon", "M-SoM", "Photon 2", "Muon", "Monitor One", "Tracker One", "T-SoM", "E-SoM", "P2" ]
 name: "AWS SageMaker tutorial"
 shortDescription: "Time-Series Forecasting with AWS SageMaker Autopilot"
 version: 1.0.0
@@ -15,7 +16,6 @@ integrations: [ "sagemaker" ]
 hardwareDependencies:
   - name: Particle MCU Development Board
     link: https://store.particle.io/collections/all-products?filter.p.product_type=Development%20Boards
-    tags: [ "Boron", "Argon", "M-SoM", "Photon 2", "Muon", "Monitor One", "Tracker One", "T-SoM", "E-SoM", "P2" ]
   - name: Grove Temperature & Humidity Sensor (DHT11)
     link: https://wiki.seeedstudio.com/Grove-TemperatureAndHumidity_Sensor/
   - name: Particle Grove Shield
