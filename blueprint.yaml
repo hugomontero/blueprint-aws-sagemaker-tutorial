@@ -1,4 +1,4 @@
-id: aws/sagemaker-timeseries-forecasting
+id: aws-sagemaker-timeseries-forecasting
 type: tutorial
 categories: ["Getting started", "Featured Projects"]
 icon: assets/aws.png
@@ -10,34 +10,23 @@ models: []
 language: ["Particle Wiring", "Python" ]
 cloudServices: 
   - name: Integrations
-    icon: assets/particle-logo.svg 
   - name: Vault
-    icon: assets/particle-logo.svg
 integrations:
   - name: sagemaker
     icon: assets/sagemaker.svg
-supported_devices:
+supportedDevices:
   - name: Boron
-    link: 
   - name: Argon
-    link: 
   - name: M-SoM, 
-    link: 
   - name: Photon 2
-    link: 
   - name: Muon
-    link: 
   - name: Monitor One
-    link: 
   - name: Tracker One
-    link: 
   - name: T-SoM
-    link: 
   - name: E-SoM
-    link:  
   - name: P2
-    link:
 hardwareDependencies:
+  - name: Supported device
   - name: Grove Temperature & Humidity Sensor (DHT11)
     link: https://wiki.seeedstudio.com/Grove-TemperatureAndHumidity_Sensor/
   - name: Particle Grove Shield
