@@ -13,7 +13,7 @@ models: []
 language: ["Particle Wiring", "Python" ]
 cloudServices: 
   - name: Integrations
-  - name: Vault
+  - name: Secure variables
 integrations:
   - name: sagemaker
     icon: assets/sagemaker.svg
@@ -57,3 +57,7 @@ description: |
 
   This tutorial provides a comprehensive example of combining IoT hardware with cloud-based machine learning, enabling users to 
   easily collect data and generate actionable forecasts with minimal manual intervention.
+
+additionalResources:
+  - name: Device datasheets
+    link: https://docs.particle.io/reference/datasheets
