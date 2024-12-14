@@ -1,6 +1,9 @@
-id: aws-sagemaker-timeseries-forecasting
+id: aws/sagemaker-timeseries-forecasting
+slug: aws-sagemaker-timeseries-forecasting
 type: tutorial
-categories: ["Getting started", "Featured Projects"]
+category: Getting started
+expertiseLevel: ""
+tags: ["sagemaker", "aws"]
 icon: assets/aws.png
 gitrepo: https://github.com/hugomontero/blueprint-aws-sagemaker-tutorial
 name: "AWS SageMaker tutorial"
